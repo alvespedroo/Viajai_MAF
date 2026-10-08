@@ -146,3 +146,33 @@ As imagens são acessadas pelo Jetpack Compose por meio de referências como `R.
 Para executar o aplicativo corretamente, basta clonar o repositório completo, abrir o projeto no Android Studio, aguardar a sincronização do Gradle e iniciar a execução.
 
 **Observação:** caso os arquivos sejam transferidos manualmente para outro projeto, é necessário manter as imagens na pasta `res/drawable`, preservando os nomes utilizados no código.
+
+## 12. Respostas às perguntas do enunciado
+
+**1. O que mudou do Trabalho 1 para o Trabalho 2?**
+
+No Trabalho 1, desenvolvemos as primeiras interfaces do Viajaí, com foco no design e na estrutura visual. No Trabalho 2, implementamos navegação funcional, listas dinâmicas, gerenciamento de estados e funcionalidades de planejamento de viagens.
+
+**2. Como foi implementada a navegação?**
+
+Utilizamos o Navigation Compose, com um `NavHost` centralizado no arquivo `AppNavigation.kt`. As rotas permitem acessar as diferentes telas do aplicativo, incluindo Home, Checklist, Pesquisa, Perfil e telas de detalhes.
+
+**3. Como os dados são organizados e atualizados?**
+
+Utilizamos classes de dados (`data class`) para representar as informações do aplicativo e listas reativas com `mutableStateListOf`. Dessa forma, a interface é atualizada quando os usuários adicionam, editam ou removem informações.
+
+**4. Como funcionam as listas e as telas de detalhes?**
+
+As listas apresentam os registros em componentes visuais, permitindo selecionar itens para consultar informações específicas. Também implementamos ações de gerenciamento, como adição e exclusão de registros.
+
+**5. Quais foram as principais dificuldades?**
+
+Encontramos problemas com rotas incorretas, barras de navegação duplicadas e identificadores repetidos nas listas, que provocavam falhas no aplicativo. Para solucioná-los, revisamos a navegação, a organização das telas e a identificação dos itens.
+
+**6. Quais decisões foram tomadas durante o desenvolvimento?**
+
+Decidimos centralizar a navegação, organizar os dados por classes, separar as informações de cada viagem e manter uma identidade visual consistente. Também ampliamos as funcionalidades para incluir orçamento, checklists individuais, avaliações, lugares salvos e histórico de viagens.
+
+**7. O que aprendemos com o desenvolvimento?**
+
+Aprendemos a integrar diferentes telas, gerenciar estados no Jetpack Compose, trabalhar com listas dinâmicas e resolver problemas de execução. O projeto demonstrou a importância dos testes e da organização do código durante o desenvolvimento de aplicativos Android.
