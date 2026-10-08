@@ -122,19 +122,13 @@ Essas dificuldades contribuíram para o aprendizado sobre organização de códi
 
 O projeto utiliza os recursos de imagem armazenados em `app/src/main/res/drawable/`.
 
-## 9. Demonstração do aplicativo
-
-Foi gravado um vídeo demonstrando o funcionamento do Viajaí no Android Studio, incluindo a navegação entre telas e as principais funcionalidades implementadas.
-
-**Vídeo de demonstração:** [Clique aqui para assistir]([https://drive.google.com/file/d/1UPS2vzQmp-jHV7DxdlIPvMjzZiu8-IWq/view?usp=drive_link])
-
-## 10. Considerações finais
+## 9. Considerações finais
 
 O desenvolvimento do Viajaí permitiu aplicar conceitos de programação Android, Jetpack Compose, navegação, gerenciamento de estados e organização de dados.
 A evolução do Trabalho 1 para o Trabalho 2 proporcionou uma experiência prática na transformação de interfaces estáticas em um aplicativo funcional.
 O projeto também possibilitou compreender a importância do planejamento, dos testes e da resolução de problemas durante o desenvolvimento de software.
 
-## 11. Recursos visuais e imagens
+## 10. Recursos visuais e imagens
 
 O Viajaí utiliza imagens locais para apresentar destinos turísticos, restaurantes, hospedagens, passeios e avaliações.
 Todas as imagens necessárias para a execução do aplicativo estão armazenadas no próprio projeto, no diretório:
@@ -147,7 +141,7 @@ Para executar o aplicativo corretamente, basta clonar o repositório completo, a
 
 **Observação:** caso os arquivos sejam transferidos manualmente para outro projeto, é necessário manter as imagens na pasta `res/drawable`, preservando os nomes utilizados no código.
 
-## 12. Respostas às perguntas do enunciado
+## 11. Respostas às perguntas do enunciado
 
 **1. O que mudou do Trabalho 1 para o Trabalho 2?**
 
