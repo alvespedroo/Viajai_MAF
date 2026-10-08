@@ -126,7 +126,7 @@ O projeto utiliza os recursos de imagem armazenados em `app/src/main/res/drawabl
 
 Foi gravado um vídeo demonstrando o funcionamento do Viajaí no Android Studio, incluindo a navegação entre telas e as principais funcionalidades implementadas.
 
-**Vídeo de demonstração:** [Clique aqui para assistir]([COLE_AQUI_O_LINK_DO_VIDEO](https://drive.google.com/file/d/1UPS2vzQmp-jHV7DxdlIPvMjzZiu8-IWq/view?usp=drive_link))
+**Vídeo de demonstração:** [Clique aqui para assistir]([https://drive.google.com/file/d/1UPS2vzQmp-jHV7DxdlIPvMjzZiu8-IWq/view?usp=drive_link])
 
 ## 10. Considerações finais
 
