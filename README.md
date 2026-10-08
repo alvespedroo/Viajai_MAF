@@ -167,7 +167,8 @@ As listas apresentam os registros em componentes visuais, permitindo selecionar 
 
 **5. Quais foram as principais dificuldades?**
 
-Encontramos problemas com rotas incorretas, barras de navegação duplicadas e identificadores repetidos nas listas, que provocavam falhas no aplicativo. Para solucioná-los, revisamos a navegação, a organização das telas e a identificação dos itens.
+(Pedro) Encontramos problemas com rotas incorretas, barras de navegação duplicadas e identificadores repetidos nas listas, que provocavam falhas no aplicativo. Para solucioná-los, revisamos a navegação, a organização das telas e a identificação dos itens.
+(Eduardo) Durante o desenvolvimento, enfrentamos dificuldades com as configurações do Gradle, que impediam a sincronização e a execução correta do projeto. Após diversas tentativas, conseguimos identificar e corrigir os problemas de configuração, permitindo que o aplicativo voltasse a funcionar normalmente no Android Studio.
 
 **6. Quais decisões foram tomadas durante o desenvolvimento?**
 
